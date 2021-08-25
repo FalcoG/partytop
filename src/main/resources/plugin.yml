@@ -1,0 +1,13 @@
+name: partytop
+version: 1.0.0-SNAPSHOT
+api-version: 1.17
+main: pro.falco.partytop.Main
+author: FalcoG
+description: Implements a leaderboard for mcMMO parties
+
+depend: [mcMMO]
+
+commands:
+  partytop:
+    usage: /<partytop>
+    description: Display the top mcMMO parties
